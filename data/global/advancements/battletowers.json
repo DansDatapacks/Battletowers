@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "Battletowers",
+    "description": "Adds Battletowers into Minecraft",
+    "icon": {
+			"item": "minecraft:stone_bricks"
+		},
+    "background": "minecraft:textures/block/black_concrete_powder.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:danmizu",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

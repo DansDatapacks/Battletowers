@@ -1,0 +1,19 @@
+{
+    "display": {
+      "title": "Dan Mizu",
+      "description": "",
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:{Name: \"DanMizu\", Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE1Nzg0MDU3OTgyODEsInByb2ZpbGVJZCI6ImU2OGUyMzYzZjFiYjQ0NmNhZWVmY2NjZDIzYWVhZmI3IiwicHJvZmlsZU5hbWUiOiJEYW5NaXp1IiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MzZGExNmIwMTQ3Y2RhNWY0ZGJkZjcyMTIwYmI5MjBlMTAwYzk0OTg4MTdlNzgxMzMwMzM0YzZmYjBiZWUzOGEifX19\"}]}}}"
+     },
+      "background": "minecraft:textures/block/black_concrete_powder.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

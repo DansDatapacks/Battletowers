@@ -1,0 +1,24 @@
+{
+  "name": "battletowers:battletower_floor_2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "battletowers:floor_2/battletower_floor_2_cobwebs",
+        "processors": "battletowers:damaged_battletower",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "battletowers:floor_2/battletower_floor_2_overgrown",
+        "processors": "battletowers:damaged_battletower",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

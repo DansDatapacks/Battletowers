@@ -1,0 +1,24 @@
+{
+  "name": "battletowers:battletower_floor_5",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "battletowers:floor_5/battletower_floor_5_wither_skeleton",
+        "processors": "battletowers:damaged_battletower",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "battletowers:floor_5/battletower_floor_5_cave_spider",
+        "processors": "battletowers:damaged_battletower",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "battletowers:battletower_floor_3",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "battletowers:floor_3/battletower_floor_3_zombie",
+        "processors": "battletowers:damaged_battletower",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "battletowers:floor_3/battletower_floor_3_skeleton",
+        "processors": "battletowers:damaged_battletower",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
