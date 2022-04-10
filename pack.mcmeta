@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 6,
-        "description": "§7Adds Battletowers into Minecraft§r §3v0.1§r §a(1.16.2+)§r"
+        "pack_format": 9,
+        "description": "§7Generates Battletowers in the overworld.§r §3v1.0§r §a(1.18.2+)§r"
     }
 }
