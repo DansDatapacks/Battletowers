@@ -6,7 +6,7 @@
       "weight": 1,
       "element": {
         "location": "battletowers:floor_4/battletower_floor_4_infested",
-        "processors": "battletowers:damaged_battletower",
+        "processors": "battletowers:degraded_stone_battletower",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -15,7 +15,7 @@
       "weight": 4,
       "element": {
         "location": "battletowers:floor_4/battletower_floor_4_magma",
-        "processors": "battletowers:damaged_battletower",
+        "processors": "battletowers:degraded_stone_battletower",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

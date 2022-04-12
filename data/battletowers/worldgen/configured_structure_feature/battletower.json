@@ -4,7 +4,7 @@
       "start_pool": "battletowers:battletower_entrance",
       "size": 6
     },
-    "biomes": "#minecraft:has_structure/mineshaft",
+    "biomes": "#battletowers:has_stone_battletowers",
     "adapt_noise": true,
     "spawn_overrides": {}
   }
