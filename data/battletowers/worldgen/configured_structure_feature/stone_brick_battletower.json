@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "config": {
+      "start_pool": "battletowers:stone_brick_battletower/entrance",
+      "size": 7
+    },
+    "biomes": "#battletowers:has_stone_battletowers",
+    "adapt_noise": true,
+    "spawn_overrides": {}
+  }

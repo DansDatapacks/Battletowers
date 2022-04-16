@@ -1,0 +1,15 @@
+{
+    "name": "battletowers:stone_brick_battletower/floor/2",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "battletowers:stone_brick_battletower/floor/2/default_zombie",
+          "processors": "battletowers:degraded_stone_brick_battletower",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

@@ -1,20 +1,20 @@
 # validate boss fight
 
 #get ID
-scoreboard players operation #BossID dan_bt.temp = @s dan_bt.ID
+scoreboard players operation #battletowers.boss_ID battletowers.temp = @s battletowers.ID
 
-#tag all Bosses with AEC ID
-execute as @e[limit=1,sort=nearest,tag=dan_battletowers.boss] if score @s dan_bt.ID = #BossID dan_bt.temp run tag @s add dan_battletowers.syncFound
+#tag all Bosses with marker ID
+execute as @e[limit=1,sort=nearest,tag=battletowers.boss] if score @s battletowers.ID = #battletowers.boss_ID battletowers.temp run tag @s add battletowers.sync.found
 
-#TP boss back to AEC if too far
-execute unless entity @e[limit=1,sort=nearest,tag=dan_battletowers.syncFound,distance=..10] run tp @e[limit=1,sort=nearest,tag=dan_battletowers.syncFound] @s
+#heal boss to full health if no players nearby
+execute as @e[limit=1,sort=nearest,tag=battletowers.sync.found] at @s unless entity @p[distance=..22] store result entity @s Health float 1 run attribute @s generic.max_health get 1
 
-#give players mining fatigue when near boss
-#execute at @e[limit=1,sort=nearest,tag=dan_battletowers.syncFound] as @a[gamemode=!creative,gamemode=!spectator,distance=..8] run effect give @s mining_fatigue 5 1 false
+#tp boss back to marker if too far
+execute unless entity @e[limit=1,sort=nearest,tag=battletowers.sync.found,distance=..10] run tp @e[limit=1,sort=nearest,tag=battletowers.sync.found] @s
 
 #boss died
-execute unless entity @e[tag=dan_battletowers.syncFound,limit=1] run function battletowers:boss_slain 
+execute unless entity @e[tag=battletowers.sync.found,limit=1] run function battletowers:boss_slain
 
 #reset temp variables
-scoreboard players reset #BossID dan_bt.temp
-tag @e[tag=dan_battletowers.syncFound,limit=1] remove dan_battletowers.syncFound
+scoreboard players reset #battletowers.boss_ID battletowers.temp
+tag @e[tag=battletowers.sync.found,limit=1] remove battletowers.sync.found

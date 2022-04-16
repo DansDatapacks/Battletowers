@@ -1,0 +1,15 @@
+{
+  "name": "battletowers:stone_brick_battletower/top",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "battletowers:stone_brick_battletower/top",
+        "processors": "battletowers:degraded_stone_brick_battletower",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

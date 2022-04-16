@@ -1,9 +1,10 @@
 # runs when server loads/reloads
 
 #install variables
-scoreboard objectives add dan_bt.temp dummy
-scoreboard objectives add dan_bt.ID dummy
-scoreboard objectives add dan_bt.phase dummy
+scoreboard objectives add battletowers.temp dummy
+scoreboard objectives add battletowers.ID dummy
+scoreboard objectives add battletowers.destroy_level dummy
+scoreboard objectives add battletowers.queue dummy
 
-# start loops
-schedule function battletowers:loop/every_second 1t replace
+#start loops
+schedule function battletowers:loop/per_20_ticks 1t replace

@@ -7,19 +7,16 @@
                   "max": 3.0,
                   "type": "minecraft:uniform"
               },
-          
               "bonus_rolls": {
                   "min": 0.0,
                   "max": 1.0,
                   "type": "minecraft:uniform"
               },
-              
               "conditions": [
                   {
                       "condition": "killed_by_player"
                   }
               ],
-  
               "entries": [
                   {
                       "type": "minecraft:item",
@@ -68,26 +65,22 @@
                   }
               ]
           },
-  
           {
               "rolls": {
                   "min": 1.0,
                   "max": 2.0,
                   "type": "minecraft:uniform"
               },
-          
               "bonus_rolls": {
                   "min": 0.0,
                   "max": 1.0,
                   "type": "minecraft:uniform"
               },
-              
               "conditions": [
                   {
                       "condition": "killed_by_player"
                   }
               ],
-  
               "entries": [
                   {
                       "type": "minecraft:item",
@@ -121,16 +114,13 @@
                   }
               ]
           },
-  
           {
                 "rolls": 1,
-
                 "conditions": [
                     {
                         "condition": "killed_by_player"
                     }
                 ],
-  
                 "entries": [
                     {
                       "type": "minecraft:item",
@@ -167,15 +157,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Sword",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -224,15 +206,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Sword",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -245,7 +219,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_sword",
@@ -281,15 +254,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Sword",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -302,7 +267,6 @@
                           }
                       ]
                   },
-          
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_sword",
@@ -338,15 +302,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Sword",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -359,7 +315,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_sword",
@@ -395,15 +350,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Sword",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -416,7 +363,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_sword",
@@ -452,15 +398,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Sword",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -473,12 +411,11 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_sword",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -509,23 +446,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Sword",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -538,12 +463,11 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_sword",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -574,23 +498,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Sword",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -603,7 +515,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_axe",
@@ -639,15 +550,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Axe",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -660,7 +563,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_axe",
@@ -696,15 +598,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Axe",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -717,7 +611,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_axe",
@@ -753,15 +646,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Axe",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -774,7 +659,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_axe",
@@ -810,15 +694,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Axe",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -831,7 +707,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_axe",
@@ -867,15 +742,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Axe",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -888,7 +755,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_axe",
@@ -924,15 +790,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Axe",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -945,12 +803,11 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_axe",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -981,23 +838,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Axe",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -1010,12 +855,11 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_axe",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -1046,23 +890,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Axe",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -1075,7 +907,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:shield",
@@ -1110,19 +941,10 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Shield",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:shield",
@@ -1180,19 +1002,10 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Shield",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:shield",
@@ -1250,24 +1063,15 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Shield",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:shield",
                       "weight": 2,
-                      "quality": 0.50,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -1353,15 +1157,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Shield",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
@@ -1373,25 +1169,16 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:bow",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Ember",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "minecraft:enchant_randomly",
@@ -1427,33 +1214,20 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:crossbow",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Maelstrom",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "minecraft:enchant_randomly",
@@ -1475,37 +1249,26 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:crossbow",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
-                          
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Javelin",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
                           },
                           {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
-                          },
-                          {
-                                  "function": "set_nbt",
-                                  "tag": "{Enchantments:[{id:piercing,lvl:10}]}"
+                              "function": "minecraft:set_enchantments",
+                              "enchantments": {
+                                "minecraft:piercing": 10
+                              },
+                              "add": true
                           },
                           {
                               "function": "minecraft:enchant_randomly",
@@ -1515,12 +1278,11 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:shield",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -1606,15 +1368,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Bulwark",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
@@ -1626,7 +1380,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_helmet",
@@ -1673,15 +1426,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Helmet",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -1740,15 +1485,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Chestplate",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -1761,7 +1498,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_leggings",
@@ -1808,15 +1544,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Leggings",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -1829,7 +1557,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_boots",
@@ -1876,15 +1603,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Boots",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -1897,7 +1616,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_helmet",
@@ -1966,15 +1684,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Helmet",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2055,15 +1765,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Chestplate",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2076,7 +1778,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_leggings",
@@ -2145,15 +1846,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Leggings",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2166,7 +1859,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_boots",
@@ -2235,15 +1927,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Boots",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2256,7 +1940,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_helmet",
@@ -2325,15 +2008,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Helmet",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2346,7 +2021,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_chestplate",
@@ -2415,15 +2089,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Chestplate",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2436,7 +2102,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_leggings",
@@ -2505,15 +2170,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Leggings",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2526,7 +2183,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_boots",
@@ -2595,15 +2251,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Boots",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2616,12 +2264,11 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_helmet",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -2718,23 +2365,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Helmet",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2747,12 +2382,11 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_chestplate",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -2849,23 +2483,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Chestplate",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -2878,12 +2500,11 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_leggings",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -2980,23 +2601,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Leggings",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3009,12 +2618,11 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:chainmail_boots",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -3111,23 +2719,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Chainmail Boots",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3140,7 +2736,6 @@
                           }
                       ]
                   },
-  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_helmet",
@@ -3176,15 +2771,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Helmet",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3232,15 +2819,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Chestplate",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3253,7 +2832,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_leggings",
@@ -3289,15 +2867,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Leggings",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3310,7 +2880,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_boots",
@@ -3346,15 +2915,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Boots",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3367,11 +2928,7 @@
                           }
                       ]
                   },
-                  
-                  
-                  
-                  
-  {
+                  {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_helmet",
                       "weight": 80,
@@ -3428,15 +2985,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Helmet",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3506,15 +3055,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Chestplate",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3527,7 +3068,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_leggings",
@@ -3585,15 +3125,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Leggings",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3606,7 +3138,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_boots",
@@ -3664,15 +3195,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Boots",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3685,15 +3208,7 @@
                           }
                       ]
                   },
-  
-  
-  
-  
-  
-  
-  
-  
-  {
+                  {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_helmet",
                       "weight": 10,
@@ -3761,15 +3276,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Helmet",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3850,15 +3357,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Chestplate",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3871,7 +3370,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_leggings",
@@ -3940,15 +3438,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Leggings",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -3961,7 +3451,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_boots",
@@ -4030,15 +3519,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Boots",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4051,17 +3532,11 @@
                           }
                       ]
                   },
-          
-                  
-                  
-                  
-                  
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_helmet",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -4158,23 +3633,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Helmet",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4187,11 +3650,11 @@
                           }
                       ]
                   },
-              {
+                  {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_chestplate",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -4288,23 +3751,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Chestplate",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4317,12 +3768,11 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_leggings",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -4419,23 +3869,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Leggings",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4448,12 +3886,11 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:iron_boots",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -4550,23 +3987,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Iron Boots",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4615,15 +4040,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Helmet",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4671,15 +4088,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Chestplate",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4692,7 +4101,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_leggings",
@@ -4728,15 +4136,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Leggings",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4749,7 +4149,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_boots",
@@ -4785,15 +4184,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Boots",
-                              "italic": false,
-                              "color": "green"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":false,\"color\":\"green\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4806,15 +4197,7 @@
                           }
                       ]
                   },
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                    {
+                  {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_helmet",
                       "weight": 60,
@@ -4871,15 +4254,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Helmet",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4892,7 +4267,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_chestplate",
@@ -4950,15 +4324,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Chestplate",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -4971,7 +4337,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_leggings",
@@ -5029,15 +4394,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Leggings",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -5050,7 +4407,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_boots",
@@ -5108,15 +4464,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Boots",
-                              "italic": false,
-                              "color": "blue"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":false,\"color\":\"blue\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -5129,12 +4477,6 @@
                           }
                       ]
                   },
-                  
-                  
-                  
-                  
-                  
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_helmet",
@@ -5192,15 +4534,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Helmet",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -5213,7 +4547,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_chestplate",
@@ -5271,15 +4604,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Chestplate",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -5292,7 +4617,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_leggings",
@@ -5350,15 +4674,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Leggings",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -5371,7 +4687,6 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_boots",
@@ -5429,15 +4744,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Boots",
-                              "italic": false,
-                              "color": "#FF69B4"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Fabled\",\"italic\":false,\"color\":\"#FF69B4\"}']}}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -5450,20 +4757,11 @@
                           }
                       ]
                   },
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_helmet",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -5560,23 +4858,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Helmet",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -5589,12 +4875,11 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_chestplate",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -5691,23 +4976,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Chestplate",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
@@ -5720,12 +4993,11 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_leggings",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -5822,15 +5094,7 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Leggings",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
@@ -5847,12 +5111,11 @@
                           }
                       ]
                   },
-                  
                   {
                       "type": "minecraft:item",
                       "name": "minecraft:diamond_boots",
                       "weight": 1,
-                      "quality": 0.25,
+                      "quality": 1,
                       "functions": [
                           {
                               "function": "set_attributes",
@@ -5949,23 +5212,11 @@
                           },
                           {
                               "function": "set_nbt",
-                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}    }"
-                          },
-                          {
-                              "function": "minecraft:set_name",
-                              "name": {
-                              "text": "Diamond Boots",
-                              "italic": false,
-                              "color": "dark_red"
-                              }
+                              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Mythical\",\"italic\":false,\"color\":\"dark_red\"}']}}"
                           },
                           {
                               "function": "set_nbt",
                               "tag": "{Unbreakable:1}"
-                          },
-                          {
-                              "function": "set_nbt",
-                              "tag": "{Age:-32768}"
                           },
                           {
                               "function": "enchant_with_levels",
