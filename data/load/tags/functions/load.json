@@ -1,3 +1,6 @@
 {
-    "values": []
+    "values": [
+        "sourcecraft.5:on_event/on_load_verify",
+        "battletowers.1:on_event/on_load_verify"
+    ]
 }

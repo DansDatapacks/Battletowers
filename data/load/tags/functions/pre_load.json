@@ -1,0 +1,6 @@
+{
+    "values": [
+        "sourcecraft.5:on_event/on_pre_load",
+        "battletowers.1:on_event/on_pre_load"
+    ]
+}

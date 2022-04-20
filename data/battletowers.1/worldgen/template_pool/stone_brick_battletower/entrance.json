@@ -1,0 +1,15 @@
+{
+    "name": "battletowers.1:stone_brick_battletower/entrance",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "battletowers.1:stone_brick_battletower/entrance",
+          "processors": "battletowers.1:degraded_stone_brick_battletower",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

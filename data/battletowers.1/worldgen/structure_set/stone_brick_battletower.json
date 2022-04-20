@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "battletowers.1:stone_brick_battletower",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 80,
+      "separation": 30,
+      "salt": 858239529
+    }
+}
