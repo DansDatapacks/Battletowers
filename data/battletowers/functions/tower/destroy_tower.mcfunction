@@ -36,4 +36,4 @@ execute if score @s battletowers.destroy_level matches 19.. run kill @s
 #schedule next level
 execute store result score @s battletowers.queue run time query gametime
 scoreboard players add @s battletowers.queue 35
-schedule function battletowers:queue_destroy_tower 35t append
+schedule function battletowers:tower/queue_destroy_tower 35t append

@@ -1,0 +1,1 @@
+summon minecraft:marker ~ ~ ~ {Tags:["battletowers.spawner","global.ignore"]}

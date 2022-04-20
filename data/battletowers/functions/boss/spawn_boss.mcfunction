@@ -13,7 +13,7 @@ execute if score #RNG.num battletowers.temp matches 26..50 run summon minecraft:
 execute if score #RNG.num battletowers.temp matches 51..100 run summon minecraft:vindicator ~ ~ ~ {DeathLootTable:"battletowers:loot/boss_drop",PersistenceRequired:1b,CanPickUpLoot:0b,Health:200f,Tags:["battletowers.boss","battletowers.init_id"],Attributes:[{Name:"minecraft:generic.max_health",Base:200}],HandItems:[{id:"minecraft:iron_axe",Count:1b},{}],HandDropChances:[0.000F,0.085F]}
 
 #sync marker and boss
-function battletowers:init_id
+function battletowers:utility/init_id
 scoreboard players operation @e[limit=1,sort=nearest,tag=battletowers.init_id] battletowers.ID = @s battletowers.ID
 tag @e[limit=1,sort=nearest,tag=battletowers.init_id] remove battletowers.init_id
 

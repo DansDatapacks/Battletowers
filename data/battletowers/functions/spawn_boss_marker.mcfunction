@@ -1,1 +1,0 @@
-summon minecraft:marker ~ ~ ~ {Tags:["battletowers.spawn_boss","global.ignore"]}

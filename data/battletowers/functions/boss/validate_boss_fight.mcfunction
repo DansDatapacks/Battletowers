@@ -13,7 +13,7 @@ execute as @e[limit=1,sort=nearest,tag=battletowers.sync.found] at @s unless ent
 execute unless entity @e[limit=1,sort=nearest,tag=battletowers.sync.found,distance=..10] run tp @e[limit=1,sort=nearest,tag=battletowers.sync.found] @s
 
 #boss died
-execute unless entity @e[tag=battletowers.sync.found,limit=1] run function battletowers:boss_slain
+execute unless entity @e[tag=battletowers.sync.found,limit=1] run function battletowers:boss/boss_slain
 
 #reset temp variables
 scoreboard players reset #battletowers.boss_ID battletowers.temp

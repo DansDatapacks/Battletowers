@@ -12,4 +12,4 @@ title @a[distance=..11] title ""
 #schedule next phase
 execute store result score @s battletowers.queue run time query gametime
 scoreboard players add @s battletowers.queue 140
-schedule function battletowers:queue_destroy_tower 140t append
+schedule function battletowers:tower/queue_destroy_tower 140t append
